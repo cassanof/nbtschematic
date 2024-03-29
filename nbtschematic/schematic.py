@@ -60,7 +60,7 @@ class Schematic(nbt.CompoundSchema):
         'Length': nbt.Short,
         'Width': nbt.Short,
         'Materials': nbt.String,
-        'Blocks': nbt.ByteArray,
+        'Blocks': nbt.IntArray,
         'Data': nbt.ByteArray,
         'Entities': nbt.List[Entity],
         'TileEntities': nbt.List[BlockEntity]
